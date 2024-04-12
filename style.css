@@ -54,3 +54,17 @@ button {
 #save-btn {
     background: darkgreen;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    button {
+        width: 150px;
+    }
+}
